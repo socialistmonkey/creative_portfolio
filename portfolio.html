@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index — Creative Portfolio</title>
+<meta name="description" content="Luka Biniashvili — creative portfolio. 13 selected works spanning graphic design, video editing, motion design, and full-stack development, presented as an interactive retro CRT terminal.">
+
+<link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Open Graph / link preview cards. og:url intentionally omitted until the
+     site has a permanent domain — add it once deployed. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Index — Creative Portfolio">
+<meta property="og:description" content="Luka Biniashvili — creative portfolio. 13 selected works spanning graphic design, video editing, motion design, and full-stack development, presented as an interactive retro CRT terminal.">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Index — Creative Portfolio">
+<meta name="twitter:description" content="Luka Biniashvili — creative portfolio. 13 selected works spanning graphic design, video editing, motion design, and full-stack development, presented as an interactive retro CRT terminal.">
+<meta name="twitter:image" content="assets/og-image.png">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="index" data-root="">
+
+<div class="monitor">
+  <div class="screen-frame" id="screenFrame">
+
+    <!-- the screen: one stage per page -->
+    <div class="screen" id="screen">
+      <div class="crt-content" id="content">
+        <div id="stage-menu" class="is-active">
+          <div class="menu-head glow">/portfolio &gt;</div>
+          <div class="menu-list" id="menuList">
+            <a class="menu-item" href="works/01-digital-decay.html"><span class="idx">01</span><span class="fname">Digital Decay</span></a>
+            <a class="menu-item" href="works/02-city-17-dezerter-bazaar.html"><span class="idx">02</span><span class="fname">City 17: Dezerter Bazaar</span></a>
+            <a class="menu-item" href="works/03-silk-road-forum.html"><span class="idx">03</span><span class="fname">Tbilisi Silk Road Forum Motion Design</span></a>
+            <a class="menu-item" href="works/04-afghan-literacy-posters.html"><span class="idx">04</span><span class="fname">A Movement for Literacy and Equality Buried by Empires and Extremism</span></a>
+            <a class="menu-item" href="works/05-cinema-edit-series.html"><span class="idx">05</span><span class="fname">Cinema Edit Series</span></a>
+            <a class="menu-item" href="works/06-gorbachev-x-louis-vuitton.html"><span class="idx">06</span><span class="fname">Gorbachev x Louis Vuitton</span></a>
+            <a class="menu-item" href="works/07-media-offline.html"><span class="idx">07</span><span class="fname">Media Offline</span></a>
+            <a class="menu-item" href="works/08-smokers-body.html"><span class="idx">08</span><span class="fname">The Smoker's Body</span></a>
+            <a class="menu-item" href="works/09-spacex-commercial.html"><span class="idx">09</span><span class="fname">SpaceX Commercial</span></a>
+            <a class="menu-item" href="works/10-tbilisian-reality.html"><span class="idx">10</span><span class="fname">Tbilisian Reality</span></a>
+            <a class="menu-item" href="works/11-terminal-reality.html"><span class="idx">11</span><span class="fname">Terminal Reality</span></a>
+            <a class="menu-item" href="works/12-unireviews.html"><span class="idx">12</span><span class="fname">UniReviews</span></a>
+            <a class="menu-item" href="works/13-wach-auf.html"><span class="idx">13</span><span class="fname">“Wach Auf” (Work in Progress)</span></a>
+          </div>
+          <div class="menu-foot">↑ ↓ select · ENTER open · type a number to jump · showing 13 files</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- layers drawn above the text -->
+    <canvas class="crt-canvas" id="crtCanvas"></canvas>
+    <div class="curve-overlay"></div>
+    <div class="now-viewing" id="nowViewing"></div>
+    <div class="skip-hint" id="skipHint">click screen or press any key</div>
+  </div>
+
+  <!-- numbered channel buttons, built by js/main.js -->
+  <div class="channel-bar" id="channelBar"></div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/crt.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

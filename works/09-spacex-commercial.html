@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpaceX Commercial — Luka Biniashvili</title>
+<meta name="description" content="Motion design (mp4) / Motion designer &amp; sequence animator — Adobe Illustrator, Adobe After Effects">
+
+<link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<!-- Open Graph / link preview cards. og:url intentionally omitted until the
+     site has a permanent domain — add it once deployed. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="SpaceX Commercial — Luka Biniashvili">
+<meta property="og:description" content="Motion design (mp4) / Motion designer &amp; sequence animator — Adobe Illustrator, Adobe After Effects">
+<meta property="og:image" content="../assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceX Commercial — Luka Biniashvili">
+<meta name="twitter:description" content="Motion design (mp4) / Motion designer &amp; sequence animator — Adobe Illustrator, Adobe After Effects">
+<meta name="twitter:image" content="../assets/og-image.png">
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="work" data-root="../" data-index="9">
+
+<div class="monitor">
+  <div class="screen-frame" id="screenFrame">
+
+    <!-- the screen: one stage per page -->
+    <div class="screen" id="screen">
+      <div class="crt-content" id="content">
+        <div id="stage-item" class="is-active">
+          <div class="item-head">
+            <div class="item-title glow-strong" id="itemTitle">SpaceX Commercial</div>
+            <div class="item-tags" id="itemTags">Motion design (mp4) / Motion designer &amp; sequence animator — Adobe Illustrator, Adobe After Effects</div>
+          </div>
+          <div class="item-body" id="itemBody">
+            <div class="media-box float-left" id="mediaBox" data-title="SpaceX Commercial" data-media='[{"type":"video","src":"../media/spacex-commercial/spacex-commercial.mp4"}]'></div>
+            <div class="field-label">CONCEPT</div>
+            <div class="field-text">This is an example commercial for SpaceX that I made while studying animation using After Effects, functioning as a major academic assignment. It maps a narrative timeline of an individual's aspiration toward aerospace engineering and deep-space exploration. We follow a person's life from childhood to the point of them reaching their goal, and each major step is animated. Traditional cuts are bridged by zooming directly into the infinite-resolution boundaries of vector shapes to create smooth transitions. The audio track has been chosen thematically as well, placing the Outer Wilds soundtrack as the musical orchestration of the animation, conceptually mirroring the narrative's underlying tension between space exploration and existential isolation.</div>
+            <div class="field-label">TECHNICAL</div>
+            <div class="field-text">The production pipeline utilized Adobe Illustrator to dissect and isolate flat vector graphics before staging them across seven interconnected compositions within Adobe After Effects. Given the complexity of navigating multiple nested pre-compositions, strict layer hierarchy and file organization were crucial to maintaining an efficient workflow. The 45-second sequence utilizes seamless positional, scaling, and rotational spatial adjustments. Technical execution involved anchoring motion paths to null objects to replicate multi-plane, dynamic camera movements, and using the puppet pin tool to add organic secondary animation to characters. The workflow also included creating looping animations for specific scenes, stacking turbulent displacement and mosaic filters to execute a stylized digital scan-line transition, and a custom reveal animation designed for the final branding sequence.</div>
+          </div>
+          <div class="item-foot">
+            <a href="../portfolio.html">ESC / ← index</a>
+            <span id="itemProgress">09 / 13</span>
+            <a href="10-tbilisian-reality.html">ENTER / → next</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- layers drawn above the text -->
+    <canvas class="crt-canvas" id="crtCanvas"></canvas>
+    <div class="curve-overlay"></div>
+    <div class="media-portal" id="mediaPortal"></div>
+    <div class="now-viewing" id="nowViewing"></div>
+  </div>
+
+  <!-- numbered channel buttons, built by js/main.js -->
+  <div class="channel-bar" id="channelBar"></div>
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/crt.js"></script>
+<script src="../js/player.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

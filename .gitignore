@@ -1,0 +1,18 @@
+# macOS / Windows system files
+.DS_Store
+.AppleDouble
+.localized
+Thumbs.db
+desktop.ini
+
+# editor and tool folders
+.vscode/
+.idea/
+.claude/
+
+# node tooling, in case it is ever added
+node_modules/
+
+# local environment files (never commit these)
+.env
+.env.*

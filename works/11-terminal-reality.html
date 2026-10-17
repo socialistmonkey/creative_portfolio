@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminal Reality — Luka Biniashvili</title>
+<meta name="description" content="Experimental reel (mp4, 9:16 · 2 clips) / Videographer &amp; editor — Adobe After Effects">
+
+<link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<!-- Open Graph / link preview cards. og:url intentionally omitted until the
+     site has a permanent domain — add it once deployed. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Terminal Reality — Luka Biniashvili">
+<meta property="og:description" content="Experimental reel (mp4, 9:16 · 2 clips) / Videographer &amp; editor — Adobe After Effects">
+<meta property="og:image" content="../assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Terminal Reality — Luka Biniashvili">
+<meta name="twitter:description" content="Experimental reel (mp4, 9:16 · 2 clips) / Videographer &amp; editor — Adobe After Effects">
+<meta name="twitter:image" content="../assets/og-image.png">
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="work" data-root="../" data-index="11">
+
+<div class="monitor">
+  <div class="screen-frame" id="screenFrame">
+
+    <!-- the screen: one stage per page -->
+    <div class="screen" id="screen">
+      <div class="crt-content" id="content">
+        <div id="stage-item" class="is-active">
+          <div class="item-head">
+            <div class="item-title glow-strong" id="itemTitle">Terminal Reality</div>
+            <div class="item-tags" id="itemTags">Experimental reel (mp4, 9:16 · 2 clips) / Videographer &amp; editor — Adobe After Effects</div>
+          </div>
+          <div class="item-body" id="itemBody">
+            <div class="media-box float-left portrait" id="mediaBox" data-title="Terminal Reality" data-media='[{"type":"video","src":"../media/terminal-reality/1.mp4"},{"type":"video","src":"../media/terminal-reality/2.mp4"}]'></div>
+            <div class="field-label">CONCEPT</div>
+            <div class="field-text">This 15-second experimental reel explores the synthesis of real-world videography and digital text environments (ASCII characters). The project consists of three pieces of original footage: a walk through the Holocaust Memorial in Berlin, an arcade machine in Tbilisi, and an underground Tbilisi clothing market. This work was created as visual experimentation and a dedicated learning opportunity. Originally the entire video was in ASCII, but a transition from real footage into an ASCII world was added, and towards the end, in an underground tunnel, those two worlds merge. The musical orchestration changes and becomes more hectic as more movement is introduced in the video as well. The final segment layers the raw video and ASCII render together, blending physical forms with text aesthetics.</div>
+            <div class="field-label">TECHNICAL</div>
+            <div class="field-text">The video was built entirely using Adobe After Effects, utilizing original footage captured on-site. To transition into the digital landscape of ASCII characters, datamoshing was utilized as the primary transitional mechanism. Using the Extract effect, specific luminance ranges were isolated from the video data to map unique characters to their corresponding brightness levels, which were then tied to the footage using track mattes. For the audio, the song "Red Weather" by ONDA ANDAR was split into instrumental stems to isolate the instrumental and remove the vocals. Finally, the project was adapted to a 9:16 aspect ratio to align with the technical standards of modern short-form content consumption.</div>
+          </div>
+          <div class="item-foot">
+            <a href="../portfolio.html">ESC / ← index</a>
+            <span id="itemProgress">11 / 13</span>
+            <a href="12-unireviews.html">ENTER / → next</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- layers drawn above the text -->
+    <canvas class="crt-canvas" id="crtCanvas"></canvas>
+    <div class="curve-overlay"></div>
+    <div class="media-portal" id="mediaPortal"></div>
+    <div class="now-viewing" id="nowViewing"></div>
+  </div>
+
+  <!-- numbered channel buttons, built by js/main.js -->
+  <div class="channel-bar" id="channelBar"></div>
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/crt.js"></script>
+<script src="../js/player.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

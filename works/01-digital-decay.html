@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Decay — Luka Biniashvili</title>
+<meta name="description" content="Video (mp4) / Editor &amp; videographer — Adobe After Effects, Datamosh 2">
+
+<link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<!-- Open Graph / link preview cards. og:url intentionally omitted until the
+     site has a permanent domain — add it once deployed. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Digital Decay — Luka Biniashvili">
+<meta property="og:description" content="Video (mp4) / Editor &amp; videographer — Adobe After Effects, Datamosh 2">
+<meta property="og:image" content="../assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Digital Decay — Luka Biniashvili">
+<meta name="twitter:description" content="Video (mp4) / Editor &amp; videographer — Adobe After Effects, Datamosh 2">
+<meta name="twitter:image" content="../assets/og-image.png">
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="work" data-root="../" data-index="1">
+
+<div class="monitor">
+  <div class="screen-frame" id="screenFrame">
+
+    <!-- the screen: one stage per page -->
+    <div class="screen" id="screen">
+      <div class="crt-content" id="content">
+        <div id="stage-item" class="is-active">
+          <div class="item-head">
+            <div class="item-title glow-strong" id="itemTitle">Digital Decay</div>
+            <div class="item-tags" id="itemTags">Video (mp4) / Editor &amp; videographer — Adobe After Effects, Datamosh 2</div>
+          </div>
+          <div class="item-body" id="itemBody">
+            <div class="media-box float-left" id="mediaBox" data-title="Digital Decay" data-media='[{"type":"video","src":"../media/digital-decay/digital-decay.mp4"}]'></div>
+            <div class="field-label">CONCEPT</div>
+            <div class="field-text">This experimental video project explores the synthesis of disparate media through the lens of digital decay, blending cultural artifacts such as cinema, video games, anime, and mobile video applications with a personal footage archive. Datamoshing serves as both the transition and the unifying power; pixels bleed from one frame to the next, breaking down traditional cuts and replacing them with a continuous stream of visual data corruption. The work also utilizes a track by a Georgian artist. The later part of the video, where personal videos start popping up, is presented as a recollection of memories and interesting visuals, which then get lost in the background pixels and merge all together as the music settles down and the ambience takes over.</div>
+            <div class="field-label">TECHNICAL</div>
+            <div class="field-text">The entire work was completed in Adobe After Effects with the help of the Datamosh 2 plugin, which is quite taxing on the hardware since datamoshing requires a lot of mathematical calculations. The project heavily relied on cuts, layering and blending modes to achieve the desired final product. The memory recollection sequence required manual timing of each clip to ensure it would pop up on the screen at the correct time. A minimal amount of audio mixing was done to lower the music track as the ambience swells up towards the end. Featured media credits: My Dinner with Andre, 2001: A Space Odyssey, Hotline Miami, Perfect Blue, Monovista, "Fireworks" by Dillanext.</div>
+          </div>
+          <div class="item-foot">
+            <a href="../portfolio.html">ESC / ← index</a>
+            <span id="itemProgress">01 / 13</span>
+            <a href="02-city-17-dezerter-bazaar.html">ENTER / → next</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- layers drawn above the text -->
+    <canvas class="crt-canvas" id="crtCanvas"></canvas>
+    <div class="curve-overlay"></div>
+    <div class="media-portal" id="mediaPortal"></div>
+    <div class="now-viewing" id="nowViewing"></div>
+  </div>
+
+  <!-- numbered channel buttons, built by js/main.js -->
+  <div class="channel-bar" id="channelBar"></div>
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/crt.js"></script>
+<script src="../js/player.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

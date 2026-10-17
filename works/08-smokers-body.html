@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Smoker's Body — Luka Biniashvili</title>
+<meta name="description" content="Poster (png, 9:16) / Graphic designer — Adobe Photoshop">
+
+<link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<!-- Open Graph / link preview cards. og:url intentionally omitted until the
+     site has a permanent domain — add it once deployed. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Smoker's Body — Luka Biniashvili">
+<meta property="og:description" content="Poster (png, 9:16) / Graphic designer — Adobe Photoshop">
+<meta property="og:image" content="../assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Smoker's Body — Luka Biniashvili">
+<meta name="twitter:description" content="Poster (png, 9:16) / Graphic designer — Adobe Photoshop">
+<meta name="twitter:image" content="../assets/og-image.png">
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="work" data-root="../" data-index="8">
+
+<div class="monitor">
+  <div class="screen-frame" id="screenFrame">
+
+    <!-- the screen: one stage per page -->
+    <div class="screen" id="screen">
+      <div class="crt-content" id="content">
+        <div id="stage-item" class="is-active">
+          <div class="item-head">
+            <div class="item-title glow-strong" id="itemTitle">The Smoker's Body</div>
+            <div class="item-tags" id="itemTags">Poster (png, 9:16) / Graphic designer — Adobe Photoshop</div>
+          </div>
+          <div class="item-body" id="itemBody">
+            <div class="media-box float-left portrait" id="mediaBox" data-title="The Smoker's Body" data-media='[{"type":"image","src":"../media/smokers-body/poster.png"}]'></div>
+            <div class="field-label">CONCEPT</div>
+            <div class="field-text">This experimental poster comes from a fascination with a graphic, vintage anti-smoking advertisement found online. While the original commercial was designed to warn the public of the risks caused by cigarettes, my intention was to lean heavily into body and digital horror aesthetics. The goal was to subvert the public health warning into something surreal and unsettling, to provoke an immediate gut reaction from the viewer, with the addition of uncanny jaws on the top and bottom and raw flesh as the background. A texture was applied over the whole image to introduce an analog horror feel.</div>
+            <div class="field-label">TECHNICAL</div>
+            <div class="field-text">The project was created entirely inside Adobe Photoshop using precise masking and texture blending. The central vintage advertisement asset was isolated by keying out the white color of the original poster. Terrifying teeth were isolated and arranged on the top and bottom edges of the canvas to serve as a frame. A texture was applied using the "Darken" blend mode.</div>
+          </div>
+          <div class="item-foot">
+            <a href="../portfolio.html">ESC / ← index</a>
+            <span id="itemProgress">08 / 13</span>
+            <a href="09-spacex-commercial.html">ENTER / → next</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- layers drawn above the text -->
+    <canvas class="crt-canvas" id="crtCanvas"></canvas>
+    <div class="curve-overlay"></div>
+    <div class="media-portal" id="mediaPortal"></div>
+    <div class="now-viewing" id="nowViewing"></div>
+  </div>
+
+  <!-- numbered channel buttons, built by js/main.js -->
+  <div class="channel-bar" id="channelBar"></div>
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/crt.js"></script>
+<script src="../js/player.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
